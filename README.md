@@ -13,3 +13,6 @@ The workflow avoids `android-actions/setup-android`, which previously failed whi
 
 ## Note
 This is a debug APK for testing, not a Play Store-signed release. WhatsApp checkout prepares a message for the customer to review and send; it does not save the order into the website database.
+
+## Updated navigation and app icon
+The app now uses a green-and-gold tea-leaf launcher icon and bottom navigation for Home, Products, Cart, and Account. Existing live product API, Leaf/Dust filters, cart quantities, and WhatsApp checkout message are retained. WhatsApp checkout still hands the message to WhatsApp and does not save an order in the website admin database.
